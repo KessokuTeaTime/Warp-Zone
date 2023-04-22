@@ -4,7 +4,7 @@
 
 This mod simply adds a warp effect as you born or close a screen in front of the world. For example, entering a world or closing the options screen.
 
-![Warp Zone](/artwork/content/warp.mov)
+![Warp Zone](/artwork/content/warp.gif)
 
 *I feel reborn!*
 
