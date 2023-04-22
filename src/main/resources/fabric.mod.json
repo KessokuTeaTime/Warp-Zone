@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "warp-zone",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Warp Zone",
   "description": "",
   "authors": [
     "KrLite"
   ],
   "contact": {
     "homepage": "https://github.com/KrLite",
-    "sources": "https://github.com/KrLite/Example-Mod"
+    "sources": "https://github.com/KrLite/Warp-Zone"
   },
 
   "license": "GPL-3.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/warpzone/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.krlite.modid.ExampleMod"
+      "net.krlite.warpzone.WarpZone"
     ]
   },
   "mixins": [
