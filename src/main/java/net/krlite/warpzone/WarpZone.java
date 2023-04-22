@@ -13,7 +13,7 @@ public class WarpZone implements ModInitializer {
 	public static final Class<?>[] EXCLUDED_SCREENS = new Class[] {
 			ChatScreen.class
 	};
-	private static final double warpFov = 427.0 / 493.0, unWarpFov = 1, warpSpeed = 4.0 / 23.0;
+	private static final double warpFov = 411.0 / 493.0, unWarpFov = 1, warpSpeed = 4.0 / 23.0;
 	private static double fov, fovTarget;
 
 	@Override
