@@ -15,7 +15,7 @@ public abstract class GameRendererMixin {
 			method = "renderWorld",
 			at = @At(
 					value = "INVOKE",
-					target = "Lnet/minecraft/client/render/GameRenderer;getBasicProjectionMatrix(D)Lorg/joml/Matrix4f;",
+					target = "Lnet/minecraft/client/render/GameRenderer;getBasicProjectionMatrix(D)Lnet/minecraft/util/math/Matrix4f;",
 					ordinal = 0
 			)
 	)
