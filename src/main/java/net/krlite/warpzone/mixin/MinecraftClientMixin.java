@@ -8,8 +8,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import java.util.Arrays;
-
 @Mixin(MinecraftClient.class)
 public class MinecraftClientMixin {
 	@Inject(method = "setScreen", at = @At("RETURN"))
@@ -17,7 +15,7 @@ public class MinecraftClientMixin {
 		if (screen == null) {
 			WarpZone.unWarp();
 		}
-		else if (Arrays.stream(WarpZone.EXCLUDED_SCREENS).noneMatch(s -> s.isInstance(screen))) {
+		else if (!WarpZone.EXCLUDED.isExcludedScreen(screen.getClass())) {
 			WarpZone.warp();
 		}
 	}
