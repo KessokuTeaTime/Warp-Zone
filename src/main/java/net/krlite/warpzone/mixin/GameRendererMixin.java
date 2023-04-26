@@ -11,7 +11,14 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(GameRenderer.class)
 public abstract class GameRendererMixin {
-	@ModifyArg(method = "renderWorld", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/render/GameRenderer;getBasicProjectionMatrix(D)Lorg/joml/Matrix4f;"))
+	@ModifyArg(
+			method = "renderWorld",
+			at = @At(
+					value = "INVOKE",
+					target = "Lnet/minecraft/client/render/GameRenderer;getBasicProjectionMatrix(D)Lorg/joml/Matrix4f;",
+					ordinal = 0
+			)
+	)
 	private double modifyFov(double fov) {
 		return fov * WarpZone.fov();
 	}

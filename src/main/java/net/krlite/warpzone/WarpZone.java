@@ -10,7 +10,7 @@ public class WarpZone implements ModInitializer {
 	public static final String NAME = "Warp Zone", ID = "warp-zone";
 	public static final Logger LOGGER = LoggerFactory.getLogger(ID);
 	public static final WarpZoneExcluded EXCLUDED = new WarpZoneExcluded();
-	private static final double warpFov = 411.0 / 493.0, unWarpFov = 1, warpSpeed = 4.0 / 23.0;
+	private static final double warpFov = 411.0 / 493.0, unWarpFov = 1, warpSpeed = 4.0 / 19.0;
 	private static double fov, fovTarget;
 
 	@Override
