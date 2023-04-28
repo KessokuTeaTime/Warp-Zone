@@ -6,7 +6,7 @@ This mod simply adds a warp effect as you born or close a screen in front of the
 
 ![Warp Zone](/artwork/content/warp.gif)
 
-*I feel reborn!*
+*I'm feeling reborn!*
 
 ## License
 
