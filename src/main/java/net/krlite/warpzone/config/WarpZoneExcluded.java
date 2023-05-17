@@ -10,6 +10,7 @@ import org.apache.commons.io.FileUtils;
 import java.io.File;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.regex.Pattern;
 
 public class WarpZoneExcluded {
@@ -18,13 +19,16 @@ public class WarpZoneExcluded {
 	}
 
 	private static final File storage = FabricLoader.getInstance().getConfigDir().resolve("warp-zone-excluded.txt").toFile();
+	private static final Class<?>[] defalutExcluded = {
+			ChatScreen.class,
+			SleepingChatScreen.class,
+			DeathScreen.class
+	};
 	private static final ArrayList<String> excluded = new ArrayList<>();
 	private static final String minecraftPackage = "net.minecraft.client.gui.screen.";
 
 	static {
-		excluded.add(ChatScreen.class.getSimpleName());
-		excluded.add(SleepingChatScreen.class.getSimpleName());
-		excluded.add(DeathScreen.class.getSimpleName());
+		Arrays.stream(defalutExcluded).map(Class::getSimpleName).forEach(excluded::add);
 	}
 
 	private void load() {
