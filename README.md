@@ -1,13 +1,3 @@
-### <p align=right>[`→` Modrinth](https://modrinth.com/mod/warp-zone)</p>
+### <p align=right>[Main Branch `←`](https://github/com/KrLite/Warp-Zone)&emsp;[`→` Modrinth](https://modrinth.com/mod/warp-zone)</p>
 
-# Warp Zone
-
-This mod simply adds a warp effect as you born or close a screen in front of the world. For example, entering a world or closing the options screen.
-
-![Warp Zone](/artwork/content/warp.gif)
-
-*I feel reborn!*
-
-## License
-
-This repository is available under the **[GNU Public License.](LICENSE)**
+### Warp Zone for `1.19~1.19.2`
