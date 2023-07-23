@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-    "warpzone.json"
+    "warpzone.mixins.json"
   ],
 
   "depends": {
