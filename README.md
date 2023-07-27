@@ -16,4 +16,4 @@ This mod simply adds a warp effect as you born or close a screen in front of the
 
 ## License
 
-**Warp Zone** is available under the **[GNU Public License.](LICENSE)**
+**Warp Zone** is licensed under the **[GNU General Public License v3.](LICENSE)**
