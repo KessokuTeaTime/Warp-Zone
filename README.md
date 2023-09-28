@@ -3,4 +3,4 @@
 ### Warp Zone for Fabric `1.19.4+`
 
 > [!WARNING]
-> This version of **Warp Zone** is outdated. Newer modifies will only be made to the latst few versions.
+> This version of **Warp Zone** is outdated. Newer modifications will only be made to the latst few versions.
