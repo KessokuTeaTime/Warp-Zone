@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Warp Zone",
-  "description": "",
+  "description": "Warp Effects in Worlds!",
   "authors": [
     "KrLite"
   ],
@@ -27,9 +27,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.21",
+    "fabricloader": "*",
     "fabric-api": "*",
-    "minecraft": ["~1.19.4", "~1.20", "~1.20.1"]
+    "minecraft": ">=1.19.4"
   },
   "suggests": {
   }
