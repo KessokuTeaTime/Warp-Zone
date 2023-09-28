@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "warp-zone",
+  "id": "warp_zone",
   "version": "${version}",
 
   "name": "Warp Zone",
@@ -14,16 +14,16 @@
   },
 
   "license": "GPL-3.0",
-  "icon": "assets/warpzone/icon.png",
+  "icon": "assets/warp_zone/icon.png",
 
   "environment": "client",
   "entrypoints": {
     "main": [
-      "net.krlite.warpzone.WarpZone"
+      "net.krlite.warp_zone.WarpZone"
     ]
   },
   "mixins": [
-    "warpzone.mixins.json"
+    "warp_zone.mixins.json"
   ],
 
   "depends": {

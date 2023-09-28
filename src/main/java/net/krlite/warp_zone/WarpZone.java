@@ -1,13 +1,13 @@
-package net.krlite.warpzone;
+package net.krlite.warp_zone;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
-import net.krlite.warpzone.config.WarpZoneExcluded;
+import net.krlite.warp_zone.config.WarpZoneExcluded;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class WarpZone implements ModInitializer {
-	public static final String NAME = "Warp Zone", ID = "warp-zone";
+	public static final String NAME = "Warp Zone", ID = "warp_zone";
 	public static final Logger LOGGER = LoggerFactory.getLogger(ID);
 	public static final WarpZoneExcluded EXCLUDED = new WarpZoneExcluded();
 	private static final double warpFov = 411.0 / 493.0, unWarpFov = 1, warpSpeed = 4.0 / 19.0;

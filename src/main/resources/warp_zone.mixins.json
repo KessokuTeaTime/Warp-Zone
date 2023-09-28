@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.krlite.warpzone.mixin",
+  "package": "net.krlite.warp_zone.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],

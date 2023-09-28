@@ -1,4 +1,4 @@
-package net.krlite.warpzone.config;
+package net.krlite.warp_zone.config;
 
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.gui.screen.ChatScreen;
@@ -11,7 +11,6 @@ import java.io.File;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.regex.Pattern;
 
 public class WarpZoneExcluded {
 	public WarpZoneExcluded() {

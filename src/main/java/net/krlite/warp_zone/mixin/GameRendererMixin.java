@@ -1,6 +1,6 @@
-package net.krlite.warpzone.mixin;
+package net.krlite.warp_zone.mixin;
 
-import net.krlite.warpzone.WarpZone;
+import net.krlite.warp_zone.WarpZone;
 import net.minecraft.client.render.GameRenderer;
 import net.minecraft.client.util.math.MatrixStack;
 import org.spongepowered.asm.mixin.Mixin;
