@@ -1,6 +1,6 @@
-package net.krlite.warp_zone.mixin;
+package net.krlite.warpzone.mixin;
 
-import net.krlite.warp_zone.WarpZone;
+import net.krlite.warpzone.WarpZone;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.Screen;
 import org.spongepowered.asm.mixin.Mixin;

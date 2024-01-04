@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "warp_zone",
+  "id": "warpzone",
   "version": "${version}",
 
   "name": "Warp Zone",
@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-    "warp_zone.mixins.json"
+    "warpzone.mixins.json"
   ],
 
   "depends": {

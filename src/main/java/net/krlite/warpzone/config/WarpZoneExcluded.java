@@ -1,6 +1,7 @@
-package net.krlite.warp_zone.config;
+package net.krlite.warpzone.config;
 
 import net.fabricmc.loader.api.FabricLoader;
+import net.krlite.warpzone.WarpZone;
 import net.minecraft.client.gui.screen.ChatScreen;
 import net.minecraft.client.gui.screen.DeathScreen;
 import net.minecraft.client.gui.screen.Screen;
@@ -17,7 +18,7 @@ public class WarpZoneExcluded {
 		load();
 	}
 
-	private static final File storage = FabricLoader.getInstance().getConfigDir().resolve("warp-zone-excluded.txt").toFile();
+	private static final File storage = FabricLoader.getInstance().getConfigDir().resolve(WarpZone.ID + "-excluded.txt").toFile();
 	private static final Class<?>[] defalutExcluded = {
 			ChatScreen.class,
 			SleepingChatScreen.class,
