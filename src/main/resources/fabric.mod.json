@@ -10,16 +10,16 @@
   ],
   "contact": {
     "homepage": "https://github.com/KrLite",
-    "sources": "https://github.com/KrLite/Warp-Zone"
+    "sources": "https://github.com/KrLite/Mod.Warp-Zone"
   },
 
   "license": "GPL-3.0",
-  "icon": "assets/warp_zone/icon.png",
+  "icon": "assets/warpzone/icon.png",
 
   "environment": "client",
   "entrypoints": {
     "main": [
-      "net.krlite.warp_zone.WarpZone"
+      "net.krlite.warpzone.WarpZone"
     ]
   },
   "mixins": [
