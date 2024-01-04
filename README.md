@@ -7,7 +7,7 @@ This mod simply adds a warp effect as you born or close a screen in front of the
 <br />
 
 <div align="center">
-  <img src="https://github.com/KrLite/Warp-Zone/blob/artwork/content/warp.gif?raw=true" />
+  <img src="https://github.com/KrLite/Mod.Warp-Zone/blob/artwork/content/warp.gif?raw=true" />
   <br />
   <i><h6>I'm feeling reborn!</h6></i>
 </div>
