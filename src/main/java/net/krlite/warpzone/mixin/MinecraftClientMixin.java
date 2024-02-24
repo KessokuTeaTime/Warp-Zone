@@ -15,7 +15,7 @@ public class MinecraftClientMixin {
 		if (screen == null) {
 			WarpZone.unWarp();
 		}
-		else if (!WarpZone.EXCLUDED.isExcludedScreen(screen.getClass())) {
+		else if (!WarpZone.CONFIG.isExcludedScreen(screen.getClass())) {
 			WarpZone.warp();
 		}
 	}

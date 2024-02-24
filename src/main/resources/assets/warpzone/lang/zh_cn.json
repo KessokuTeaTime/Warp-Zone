@@ -1,3 +1,7 @@
 {
-  "modmenu.descriptionTranslation.warpzone": "在你切换界面时显示视场角变换动画。"
+	"modmenu.descriptionTranslation.warpzone": "在你切换界面时显示视场角变换动画。",
+
+	"text.autoconfig.warpzone.title": "Warp Zone",
+
+	"text.autoconfig.warpzone.option.excluded": "排除的屏幕"
 }

@@ -19,8 +19,11 @@
 
   "environment": "client",
   "entrypoints": {
-    "main": [
+    "client": [
       "net.krlite.warpzone.WarpZone"
+    ],
+    "modmenu": [
+      "net.krlite.warpzone.config.modmenu.WarpZoneModMenuIntegration"
     ]
   },
   "mixins": [
@@ -30,7 +33,8 @@
   "depends": {
     "fabricloader": "*",
     "fabric-api": "*",
-    "minecraft": ">=1.19.4"
+    "minecraft": ">=1.19.4",
+    "cloth-config": "*"
   },
   "suggests": {
   }
