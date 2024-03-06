@@ -12,10 +12,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class MinecraftClientMixin {
 	@Inject(method = "setScreen", at = @At("RETURN"))
 	private void setScreen(Screen screen, CallbackInfo ci) {
-		if (screen == null) {
-			WarpZone.unWarp();
-		}
-		else if (!WarpZone.CONFIG.isExcludedScreen(screen.getClass())) {
+		if (screen == null || WarpZone.CONFIG.isExcludedScreen(screen.getClass())) {
+			WarpZone.unwarp();
+		} else {
 			WarpZone.warp();
 		}
 	}

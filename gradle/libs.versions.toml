@@ -1,7 +1,7 @@
 [versions]
 maven-group = "net.krlite"
 archives-name = "warpzone"
-mod = "3.0.0"
+mod = "3.1.0"
 
 minecraft = "1.19.4"
 yarn = "1.19.4+build.2"

@@ -1,5 +1,6 @@
 {
 	"text.autoconfig.warpzone.title": "Warp Zone",
 
-	"text.autoconfig.warpzone.option.excluded": "Excluded Screens"
+	"text.autoconfig.warpzone.option.fovMultiplier": "FOV Warp Multiplier (%)",
+	"text.autoconfig.warpzone.option.excluded"     : "Excluded Screens"
 }

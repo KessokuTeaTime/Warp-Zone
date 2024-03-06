@@ -16,11 +16,19 @@ import java.util.stream.Stream;
 public class WarpZoneConfig implements ConfigData {
 	@ConfigEntry.Gui.Excluded
 	private static final String minecraftPackage = "net.minecraft.client.gui.screen.";
+
+	@ConfigEntry.BoundedDiscrete(min = 50, max = 125)
+	public int fovMultiplier = 83;
+
 	public ArrayList<String> excluded = new ArrayList<>(Stream.of(
 			ChatScreen.class,
 			SleepingChatScreen.class,
 			DeathScreen.class
 	).map(Class::getSimpleName).toList());
+
+	public double fovMultiplierDouble() {
+		return fovMultiplier / 100.0;
+	}
 
 	public boolean isExcludedScreen(Class<? extends Screen> screen) {
 		return excluded.stream().anyMatch(excludedScreen -> {

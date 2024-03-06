@@ -4,7 +4,6 @@ import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.ConfigHolder;
 import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.krlite.warpzone.config.WarpZoneConfig;
 import org.slf4j.Logger;
@@ -16,7 +15,7 @@ public class WarpZone implements ClientModInitializer {
 	public static final ConfigHolder<WarpZoneConfig> CONFIG_HOLDER;
 	public static final WarpZoneConfig CONFIG;
 
-	private static final double warpFov = 411.0 / 493.0, unWarpFov = 1, warpSpeed = 4.0 / 19.0;
+	private static final double unwarpFov = 1, warpSpeed = 1.0 / 1.85;
 	private static double fov, fovTarget;
 
 	static {
@@ -27,7 +26,7 @@ public class WarpZone implements ClientModInitializer {
 
 	@Override
 	public void onInitializeClient() {
-		fov = fovTarget = unWarpFov;
+		fov = fovTarget = unwarpFov;
 		ClientTickEvents.END_CLIENT_TICK.register(client -> fov += (fovTarget - fov()) * warpSpeed);
 	}
 
@@ -36,10 +35,10 @@ public class WarpZone implements ClientModInitializer {
 	}
 
 	public static void warp() {
-		fovTarget = warpFov;
+		fovTarget = CONFIG.fovMultiplierDouble();
 	}
 
-	public static void unWarp() {
-		fovTarget = unWarpFov;
+	public static void unwarp() {
+		fovTarget = unwarpFov;
 	}
 }

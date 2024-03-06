@@ -3,5 +3,6 @@
 
 	"text.autoconfig.warpzone.title": "Warp Zone",
 
-	"text.autoconfig.warpzone.option.excluded": "排除的屏幕"
+	"text.autoconfig.warpzone.option.fovMultiplier": "视场角缩放比例（%）",
+	"text.autoconfig.warpzone.option.excluded"     : "排除的屏幕"
 }
