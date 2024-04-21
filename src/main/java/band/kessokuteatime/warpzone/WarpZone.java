@@ -1,11 +1,11 @@
-package net.krlite.warpzone;
+package band.kessokuteatime.warpzone;
 
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.ConfigHolder;
 import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
-import net.krlite.warpzone.config.WarpZoneConfig;
+import band.kessokuteatime.warpzone.config.WarpZoneConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

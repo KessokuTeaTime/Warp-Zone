@@ -1,4 +1,4 @@
-### <p align=right>[`→` Modrinth](https://modrinth.com/mod/warp-zone)</p>
+### <p align=right>[`→` CurseForge](https://www.curseforge.com/minecraft/mc-mods/warp-zone)&ensp;[`→` Modrinth](https://modrinth.com/mod/warp-zone)</p>
 
 # Warp Zone
 
@@ -7,7 +7,7 @@ This mod simply adds a warp effect as you born or close a screen in front of the
 <br />
 
 <div align="center">
-  <img src="https://github.com/KrLite/Mod.Warp-Zone/blob/artwork/content/warp.gif?raw=true" />
+  <img src="https://github.com/KessokuTeaTime/Warp-Zone/blob/artwork/content/warp.gif?raw=true" />
   <br />
   <i><h6>I'm feeling reborn!</h6></i>
 </div>

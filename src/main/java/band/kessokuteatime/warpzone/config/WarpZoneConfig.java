@@ -1,4 +1,4 @@
-package net.krlite.warpzone.config;
+package band.kessokuteatime.warpzone.config;
 
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;

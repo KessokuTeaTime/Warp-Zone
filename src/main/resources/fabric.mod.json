@@ -3,15 +3,16 @@
   "id": "warpzone",
   "version": "${version}",
 
-  "name": "Warp Zone",
+  "name": "${display.name}",
   "description": "Warp effects in worlds!",
   "authors": [
+    "Kessoku Tea Time",
     "KrLite"
   ],
   "contact": {
     "homepage": "https://modrinth.com/mod/warp-zone",
-    "sources": "https://github.com/KrLite/Mod.Warp-Zone",
-    "issues": "https://github.com/KrLite/Mod.Warp-Zone/issues"
+    "sources": "https://github.com/KessokuTeaTime/Warp-Zone",
+    "issues": "https://github.com/KessokuTeaTime/Warp-Zone/issues"
   },
 
   "license": "GPL-3.0",
@@ -20,10 +21,10 @@
   "environment": "client",
   "entrypoints": {
     "client": [
-      "net.krlite.warpzone.WarpZone"
+      "band.kessokuteatime.warpzone.WarpZone"
     ],
     "modmenu": [
-      "net.krlite.warpzone.config.modmenu.WarpZoneModMenuIntegration"
+      "band.kessokuteatime.warpzone.config.modmenu.WarpZoneModMenuIntegration"
     ]
   },
   "mixins": [

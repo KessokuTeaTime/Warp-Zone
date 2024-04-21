@@ -1,9 +1,9 @@
-package net.krlite.warpzone.config.modmenu;
+package band.kessokuteatime.warpzone.config.modmenu;
 
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 import me.shedaniel.autoconfig.AutoConfig;
-import net.krlite.warpzone.config.WarpZoneConfig;
+import band.kessokuteatime.warpzone.config.WarpZoneConfig;
 
 public class WarpZoneModMenuIntegration implements ModMenuApi {
     @Override

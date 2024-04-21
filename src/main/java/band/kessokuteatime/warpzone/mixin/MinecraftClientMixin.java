@@ -1,6 +1,6 @@
-package net.krlite.warpzone.mixin;
+package band.kessokuteatime.warpzone.mixin;
 
-import net.krlite.warpzone.WarpZone;
+import band.kessokuteatime.warpzone.WarpZone;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.screen.Screen;
 import org.spongepowered.asm.mixin.Mixin;
